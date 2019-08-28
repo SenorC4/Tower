@@ -64,6 +64,7 @@
     <Compile Include="Assets\scripts\CameraController.cs" />
     <Compile Include="Assets\scripts\GoldBlock.cs" />
     <Compile Include="Assets\scripts\MainMenu.cs" />
+    <Compile Include="Assets\scripts\pauseMenu.cs" />
     <Compile Include="Assets\scripts\rotator.cs" />
     <Compile Include="Assets\scripts\Spawn.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
