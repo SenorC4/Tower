@@ -14,13 +14,19 @@ public class attack : MonoBehaviour
     {
         target = GoldBlock.instance.gold.transform;
         agent = GetComponent<NavMeshAgent>();
+        StartCoroutine(Attack());
     }
 
     // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(target.position);
         
+    }
+
+    IEnumerator Attack()
+    {
+        yield return new WaitForSeconds(10);
+        agent.SetDestination(target.position);
     }
 
     private void OnTriggerEnter(Collider hitInfo)

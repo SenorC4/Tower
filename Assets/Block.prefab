@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8007763147792542}
   - component: {fileID: 4236325519558719367}
   m_Layer: 0
-  m_Name: Block 1
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -122,4 +122,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b117fd45821bd6e468ec33aa248a1b78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  health: 100
