@@ -22,4 +22,18 @@ public class attack : MonoBehaviour
         agent.SetDestination(target.position);
         
     }
+
+    private void OnTriggerEnter(Collider hitInfo)
+    {
+        goldHealth gold = hitInfo.GetComponent<goldHealth>();
+        blockHealth block = hitInfo.GetComponent<blockHealth>();
+
+        if (gold != null)
+        {
+            gold.TakeDamage();
+        }else if(block != null)
+        {
+            block.TakeDamage();
+        }
+    }
 }
