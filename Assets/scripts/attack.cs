@@ -7,9 +7,9 @@ public class attack : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public Transform Sun;
+    //public Transform Sun;
     Transform target;
-    NavMeshAgent agent;
+    public NavMeshAgent agent;
     public float DifficultyTime = 15;
 
     void Start()
@@ -29,10 +29,10 @@ public class attack : MonoBehaviour
     {
         yield return new WaitForSeconds(DifficultyTime);
 
-        if(Sun.position.y <= 0)
-        {
-            agent.SetDestination(target.position);
-        }
+        //if(Sun.position.y <= 0)
+        //{
+        agent.SetDestination(target.position);
+        //}
         
     }
 

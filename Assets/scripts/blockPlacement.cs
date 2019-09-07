@@ -7,6 +7,8 @@ public class blockPlacement : MonoBehaviour
     public GameObject block;
     public KeyCode objectHotkey = KeyCode.Alpha1;
     private GameObject current;
+    public int count = 0;
+    public int total = 30;
 
 
 
@@ -31,7 +33,7 @@ public class blockPlacement : MonoBehaviour
 
     private void newObject()
     {
-        if (Input.GetKeyDown(objectHotkey))
+        if (Input.GetKeyDown(objectHotkey) && total > count)
         {
             if(current != null)
             {
@@ -63,6 +65,7 @@ public class blockPlacement : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             current = null;
+            count++;
         }
 
     }

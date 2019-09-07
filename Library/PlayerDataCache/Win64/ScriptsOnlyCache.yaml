@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - CameraController
     - GoldBlock
     - MainMenu
+    - Moon
     - Spawn
     - UnityEngine.PostProcessing.PostProcessingBehaviour
     - UnityEngine.PostProcessing.PostProcessingProfile
@@ -89,47 +90,49 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9942}
+      Script: {instanceID: 9918}
     - Class: 114
-      Script: {instanceID: 10420}
+      Script: {instanceID: 10126}
     - Class: 114
-      Script: {instanceID: 10528}
+      Script: {instanceID: 10178}
     - Class: 114
-      Script: {instanceID: 10752}
+      Script: {instanceID: 10282}
     - Class: 114
-      Script: {instanceID: 11254}
+      Script: {instanceID: 10524}
     - Class: 114
-      Script: {instanceID: 11280}
+      Script: {instanceID: 10538}
     - Class: 114
-      Script: {instanceID: 11432}
+      Script: {instanceID: 10612}
     - Class: 114
-      Script: {instanceID: 11664}
+      Script: {instanceID: 10708}
     - Class: 114
-      Script: {instanceID: 11796}
+      Script: {instanceID: 10768}
     - Class: 114
-      Script: {instanceID: 12320}
+      Script: {instanceID: 10986}
     - Class: 114
-      Script: {instanceID: 12554}
+      Script: {instanceID: 11100}
     - Class: 114
-      Script: {instanceID: 12806}
+      Script: {instanceID: 11220}
     - Class: 114
-      Script: {instanceID: 13222}
+      Script: {instanceID: 11276}
     - Class: 114
-      Script: {instanceID: 13362}
+      Script: {instanceID: 11426}
     - Class: 114
-      Script: {instanceID: 13746}
+      Script: {instanceID: 11488}
     - Class: 114
-      Script: {instanceID: 13874}
+      Script: {instanceID: 11652}
     - Class: 114
-      Script: {instanceID: 14008}
+      Script: {instanceID: 11722}
     - Class: 114
-      Script: {instanceID: 14038}
+      Script: {instanceID: 11790}
     - Class: 114
-      Script: {instanceID: 14046}
+      Script: {instanceID: 11800}
     - Class: 114
-      Script: {instanceID: 15120}
+      Script: {instanceID: 11806}
     - Class: 114
-      Script: {instanceID: 15314}
+      Script: {instanceID: 12280}
+    - Class: 114
+      Script: {instanceID: 12354}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -210,45 +213,45 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9942}
+      Script: {instanceID: 9918}
     - Class: 114
-      Script: {instanceID: 10042}
+      Script: {instanceID: 9962}
     - Class: 114
-      Script: {instanceID: 10276}
+      Script: {instanceID: 10060}
     - Class: 114
-      Script: {instanceID: 10280}
+      Script: {instanceID: 10062}
     - Class: 114
-      Script: {instanceID: 10436}
+      Script: {instanceID: 10138}
     - Class: 114
-      Script: {instanceID: 10500}
+      Script: {instanceID: 10168}
     - Class: 114
-      Script: {instanceID: 10528}
+      Script: {instanceID: 10178}
     - Class: 114
-      Script: {instanceID: 11030}
+      Script: {instanceID: 10406}
     - Class: 114
-      Script: {instanceID: 11664}
+      Script: {instanceID: 10708}
     - Class: 114
-      Script: {instanceID: 11744}
+      Script: {instanceID: 10742}
     - Class: 114
-      Script: {instanceID: 12668}
+      Script: {instanceID: 11146}
     - Class: 114
-      Script: {instanceID: 12806}
+      Script: {instanceID: 11220}
     - Class: 114
-      Script: {instanceID: 13362}
+      Script: {instanceID: 11488}
     - Class: 114
-      Script: {instanceID: 13396}
+      Script: {instanceID: 11506}
     - Class: 114
-      Script: {instanceID: 13626}
+      Script: {instanceID: 11612}
     - Class: 114
-      Script: {instanceID: 13874}
+      Script: {instanceID: 11722}
     - Class: 114
-      Script: {instanceID: 14046}
+      Script: {instanceID: 11806}
     - Class: 114
-      Script: {instanceID: 14436}
+      Script: {instanceID: 11970}
     - Class: 114
-      Script: {instanceID: 14544}
+      Script: {instanceID: 12012}
     - Class: 114
-      Script: {instanceID: 15120}
+      Script: {instanceID: 12280}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -462,7 +465,7 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 9e72ea85fe1c0059f768913eb800e1a6
+      Hash: 0de478d105dbda169b8fcd487db16d09
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: blockPlacement
@@ -636,6 +639,12 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: c8530a042b1d417d6d551ae3fb71a3fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Moon
+  - hash:
+      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -648,7 +657,7 @@ ScriptsOnlyBuild:
     className: NetworkStartPosition
   - hash:
       serializedVersion: 2
-      Hash: fa711bcfedb525d02c4eccbecf26f371
+      Hash: 2a99bb0528b22bdb33319b96884989f5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: sun
@@ -888,7 +897,7 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 1f1b3f57047ae81066df72a59832c3bf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: attack
