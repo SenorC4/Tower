@@ -6,6 +6,7 @@ public class sun : MonoBehaviour
 {
     public Transform Sun;
     public Light[] lights;
+    public float DaySpeed = 2;
     // Start is called before the first frame update
     void Start()
     { 
@@ -14,8 +15,10 @@ public class sun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.RotateAround(Vector3.zero, Vector3.right, 2 * Time.deltaTime);
+        transform.RotateAround(Vector3.zero, Vector3.right, DaySpeed * Time.deltaTime);
         transform.LookAt(Vector3.zero);
+
+        
 
 
         foreach(Light point in lights){

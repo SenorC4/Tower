@@ -40,7 +40,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 600
+    width: 424
     height: 517
   m_MinSize: {x: 102, y: 122}
   m_MaxSize: {x: 4002, y: 4022}
@@ -69,12 +69,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1400
+    width: 1532
     height: 517
   m_MinSize: {x: 206, y: 122}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 85
+  controlID: 37
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,10 +162,10 @@ MonoBehaviour:
     y: 30
     width: 1904
     height: 931
-  m_MinSize: {x: 1168, y: 394}
-  m_MaxSize: {x: 24008, y: 14044}
+  m_MinSize: {x: 741, y: 394}
+  m_MaxSize: {x: 24006, y: 14044}
   vertical: 1
-  controlID: 82
+  controlID: 34
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,10 +187,10 @@ MonoBehaviour:
     y: 0
     width: 1904
     height: 931
-  m_MinSize: {x: 1168, y: 394}
-  m_MaxSize: {x: 24008, y: 14044}
+  m_MinSize: {x: 741, y: 394}
+  m_MaxSize: {x: 24006, y: 14044}
   vertical: 0
-  controlID: 83
+  controlID: 35
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,12 +210,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1400
+    width: 1532
     height: 931
   m_MinSize: {x: 466, y: 394}
   m_MaxSize: {x: 20006, y: 14044}
   vertical: 1
-  controlID: 84
+  controlID: 36
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -231,9 +231,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 600
+    x: 424
     y: 0
-    width: 800
+    width: 1108
     height: 517
   m_MinSize: {x: 104, y: 122}
   m_MaxSize: {x: 4004, y: 4022}
@@ -264,12 +264,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 517
-    width: 1400
+    width: 1532
     height: 414
   m_MinSize: {x: 466, y: 272}
   m_MaxSize: {x: 20006, y: 10022}
   vertical: 0
-  controlID: 155
+  controlID: 109
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -287,7 +287,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1052
+    width: 1151
     height: 414
   m_MinSize: {x: 232, y: 272}
   m_MaxSize: {x: 10002, y: 10022}
@@ -298,7 +298,7 @@ MonoBehaviour:
   - {fileID: 19}
   - {fileID: 17}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -314,9 +314,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1052
+    x: 1151
     y: 0
-    width: 348
+    width: 381
     height: 414
   m_MinSize: {x: 234, y: 272}
   m_MaxSize: {x: 10004, y: 10022}
@@ -340,21 +340,21 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1400
+    x: 1532
     y: 0
-    width: 504
+    width: 372
     height: 931
-  m_MinSize: {x: 702, y: 272}
-  m_MaxSize: {x: 4002, y: 4022}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 28}
   m_Panes:
   - {fileID: 28}
   - {fileID: 29}
   - {fileID: 30}
   - {fileID: 18}
   - {fileID: 15}
-  m_Selected: 3
-  m_LastSelected: 4
+  m_Selected: 0
+  m_LastSelected: 3
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -439,7 +439,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 20520
+  m_LastSelectedObjectID: 14874
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -460,14 +460,14 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3320
+    x: 3122
     y: 81
-    width: 502
+    width: 700
     height: 912
   m_ViewDataDictionary: {fileID: 0}
   Collection:
     filter: 0
-    lastUpdateTime: Sep 3, 19:43
+    lastUpdateTime: Sep 7, 12:54
     listPackagesOffline:
     - Name: com.unity.2d.sprite
       DisplayName: 2D Sprite
@@ -7375,7 +7375,7 @@ MonoBehaviour:
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -7408,12 +7408,14 @@ MonoBehaviour:
           - 1.0.3
           - 1.0.7
           - 1.1.0
+          - 1.1.2
           m_Compatible:
           - 1.0.2
           - 1.0.3
           - 1.0.7
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.2
+          m_Recommended: 1.1.2
         m_Dependencies: []
         m_ResolvedDependencies: []
         m_Keywords: []
@@ -7436,7 +7438,7 @@ MonoBehaviour:
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -7469,12 +7471,14 @@ MonoBehaviour:
           - 1.0.3
           - 1.0.7
           - 1.1.0
+          - 1.1.2
           m_Compatible:
           - 1.0.2
           - 1.0.3
           - 1.0.7
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.2
+          m_Recommended: 1.1.2
         m_Dependencies: []
         m_ResolvedDependencies: []
         m_Keywords: []
@@ -7497,7 +7501,7 @@ MonoBehaviour:
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -7530,12 +7534,14 @@ MonoBehaviour:
           - 1.0.3
           - 1.0.7
           - 1.1.0
+          - 1.1.2
           m_Compatible:
           - 1.0.2
           - 1.0.3
           - 1.0.7
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.2
+          m_Recommended: 1.1.2
         m_Dependencies: []
         m_ResolvedDependencies: []
         m_Keywords: []
@@ -7558,13 +7564,13 @@ MonoBehaviour:
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
       Category: 
-      State: 0
-      IsLatest: 1
+      State: 1
+      IsLatest: 0
       Group: Packages
       Type: 
       Origin: 1
       Errors: []
-      IsVerified: 1
+      IsVerified: 0
       Author: Unity Technologies Inc.
       IsDiscoverable: 1
       Samples: []
@@ -7591,12 +7597,14 @@ MonoBehaviour:
           - 1.0.3
           - 1.0.7
           - 1.1.0
+          - 1.1.2
           m_Compatible:
           - 1.0.2
           - 1.0.3
           - 1.0.7
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.2
+          m_Recommended: 1.1.2
         m_Dependencies: []
         m_ResolvedDependencies: []
         m_Keywords: []
@@ -7612,6 +7620,69 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 637009669160000000
       IsInstalled: 1
+    - Name: com.unity.ide.vscode
+      DisplayName: Visual Studio Code Editor
+      _Version: 1.1.2
+      Description: Code editor integration for supporting Visual Studio Code as code
+        editor for unity. Adds support for generating csproj files for intellisense
+        purposes, auto discovery of installations, etc.
+      Category: 
+      State: 1
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 1
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.ide.vscode@1.1.0
+        m_IsDirectDependency: 1
+        m_Version: 1.1.0
+        m_Source: 1
+        m_ResolvedPath: C:\Users\lukel\Documents\Tower\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_AssetPath: Packages/com.unity.ide.vscode
+        m_Name: com.unity.ide.vscode
+        m_DisplayName: Visual Studio Code Editor
+        m_Category: 
+        m_Type: 
+        m_Description: Code editor integration for supporting Visual Studio Code as
+          code editor for unity. Adds support for generating csproj files for intellisense
+          purposes, auto discovery of installations, etc.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.2
+          - 1.0.3
+          - 1.0.7
+          - 1.1.0
+          - 1.1.2
+          m_Compatible:
+          - 1.0.2
+          - 1.0.3
+          - 1.0.7
+          - 1.1.0
+          - 1.1.2
+          m_Recommended: 1.1.2
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637009669160000000
+      IsInstalled: 0
     - Name: com.unity.multiplayer-hlapi
       DisplayName: Multiplayer HLAPI
       _Version: 0.2.4-preview
@@ -25618,7 +25689,7 @@ MonoBehaviour:
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -25651,12 +25722,14 @@ MonoBehaviour:
           - 1.0.3
           - 1.0.7
           - 1.1.0
+          - 1.1.2
           m_Compatible:
           - 1.0.2
           - 1.0.3
           - 1.0.7
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.2
+          m_Recommended: 1.1.2
         m_Dependencies: []
         m_ResolvedDependencies: []
         m_Keywords: []
@@ -25679,7 +25752,7 @@ MonoBehaviour:
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -25712,12 +25785,14 @@ MonoBehaviour:
           - 1.0.3
           - 1.0.7
           - 1.1.0
+          - 1.1.2
           m_Compatible:
           - 1.0.2
           - 1.0.3
           - 1.0.7
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.2
+          m_Recommended: 1.1.2
         m_Dependencies: []
         m_ResolvedDependencies: []
         m_Keywords: []
@@ -25740,7 +25815,7 @@ MonoBehaviour:
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -25773,12 +25848,14 @@ MonoBehaviour:
           - 1.0.3
           - 1.0.7
           - 1.1.0
+          - 1.1.2
           m_Compatible:
           - 1.0.2
           - 1.0.3
           - 1.0.7
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.2
+          m_Recommended: 1.1.2
         m_Dependencies: []
         m_ResolvedDependencies: []
         m_Keywords: []
@@ -25801,13 +25878,13 @@ MonoBehaviour:
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
       Category: 
-      State: 0
-      IsLatest: 1
+      State: 1
+      IsLatest: 0
       Group: Packages
       Type: 
       Origin: 1
       Errors: []
-      IsVerified: 1
+      IsVerified: 0
       Author: Unity Technologies Inc.
       IsDiscoverable: 1
       Samples: []
@@ -25834,12 +25911,14 @@ MonoBehaviour:
           - 1.0.3
           - 1.0.7
           - 1.1.0
+          - 1.1.2
           m_Compatible:
           - 1.0.2
           - 1.0.3
           - 1.0.7
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.2
+          m_Recommended: 1.1.2
         m_Dependencies: []
         m_ResolvedDependencies: []
         m_Keywords: []
@@ -25855,6 +25934,69 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 637009669160000000
       IsInstalled: 1
+    - Name: com.unity.ide.vscode
+      DisplayName: Visual Studio Code Editor
+      _Version: 1.1.2
+      Description: Code editor integration for supporting Visual Studio Code as code
+        editor for unity. Adds support for generating csproj files for intellisense
+        purposes, auto discovery of installations, etc.
+      Category: 
+      State: 1
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 1
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.ide.vscode@1.1.0
+        m_IsDirectDependency: 1
+        m_Version: 1.1.0
+        m_Source: 1
+        m_ResolvedPath: C:\Users\lukel\Documents\Tower\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_AssetPath: Packages/com.unity.ide.vscode
+        m_Name: com.unity.ide.vscode
+        m_DisplayName: Visual Studio Code Editor
+        m_Category: 
+        m_Type: 
+        m_Description: Code editor integration for supporting Visual Studio Code as
+          code editor for unity. Adds support for generating csproj files for intellisense
+          purposes, auto discovery of installations, etc.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.2
+          - 1.0.3
+          - 1.0.7
+          - 1.1.0
+          - 1.1.2
+          m_Compatible:
+          - 1.0.2
+          - 1.0.3
+          - 1.0.7
+          - 1.1.0
+          - 1.1.2
+          m_Recommended: 1.1.2
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637009669160000000
+      IsInstalled: 0
     - Name: com.unity.multiplayer-hlapi
       DisplayName: Multiplayer HLAPI
       _Version: 0.2.4-preview
@@ -66725,11 +66867,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.ide.vscode@1.1.0
+        m_PackageId: com.unity.ide.vscode@1.1.2
         m_IsDirectDependency: 0
-        m_Version: 1.1.0
+        m_Version: 1.1.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\lukel\Documents\Tower\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -66746,12 +66888,14 @@ MonoBehaviour:
           - 1.0.3
           - 1.0.7
           - 1.1.0
+          - 1.1.2
           m_Compatible:
           - 1.0.2
           - 1.0.3
           - 1.0.7
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.2
+          m_Recommended: 1.1.2
         m_Dependencies: []
         m_ResolvedDependencies: []
         m_Keywords: []
@@ -66765,7 +66909,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637009669160000000
+        m_DatePublishedTicks: 637032133170000000
       IsInstalled: 0
     - Name: com.unity.ide.vscode
       DisplayName: Visual Studio Code Editor
@@ -66786,11 +66930,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.ide.vscode@1.1.0
+        m_PackageId: com.unity.ide.vscode@1.1.2
         m_IsDirectDependency: 0
-        m_Version: 1.1.0
+        m_Version: 1.1.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\lukel\Documents\Tower\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -66807,12 +66951,14 @@ MonoBehaviour:
           - 1.0.3
           - 1.0.7
           - 1.1.0
+          - 1.1.2
           m_Compatible:
           - 1.0.2
           - 1.0.3
           - 1.0.7
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.2
+          m_Recommended: 1.1.2
         m_Dependencies: []
         m_ResolvedDependencies: []
         m_Keywords: []
@@ -66826,7 +66972,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637009669160000000
+        m_DatePublishedTicks: 637032133170000000
       IsInstalled: 0
     - Name: com.unity.ide.vscode
       DisplayName: Visual Studio Code Editor
@@ -66847,11 +66993,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.ide.vscode@1.1.0
+        m_PackageId: com.unity.ide.vscode@1.1.2
         m_IsDirectDependency: 0
-        m_Version: 1.1.0
+        m_Version: 1.1.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\lukel\Documents\Tower\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -66868,12 +67014,14 @@ MonoBehaviour:
           - 1.0.3
           - 1.0.7
           - 1.1.0
+          - 1.1.2
           m_Compatible:
           - 1.0.2
           - 1.0.3
           - 1.0.7
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.2
+          m_Recommended: 1.1.2
         m_Dependencies: []
         m_ResolvedDependencies: []
         m_Keywords: []
@@ -66887,11 +67035,74 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637009669160000000
+        m_DatePublishedTicks: 637032133170000000
       IsInstalled: 0
     - Name: com.unity.ide.vscode
       DisplayName: Visual Studio Code Editor
       _Version: 1.1.0
+      Description: Code editor integration for supporting Visual Studio Code as code
+        editor for unity. Adds support for generating csproj files for intellisense
+        purposes, auto discovery of installations, etc.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.ide.vscode@1.1.2
+        m_IsDirectDependency: 0
+        m_Version: 1.1.2
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.ide.vscode
+        m_Name: com.unity.ide.vscode
+        m_DisplayName: Visual Studio Code Editor
+        m_Category: 
+        m_Type: 
+        m_Description: Code editor integration for supporting Visual Studio Code as
+          code editor for unity. Adds support for generating csproj files for intellisense
+          purposes, auto discovery of installations, etc.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.2
+          - 1.0.3
+          - 1.0.7
+          - 1.1.0
+          - 1.1.2
+          m_Compatible:
+          - 1.0.2
+          - 1.0.3
+          - 1.0.7
+          - 1.1.0
+          - 1.1.2
+          m_Recommended: 1.1.2
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637032133170000000
+      IsInstalled: 0
+    - Name: com.unity.ide.vscode
+      DisplayName: Visual Studio Code Editor
+      _Version: 1.1.2
       Description: Code editor integration for supporting Visual Studio Code as code
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
@@ -66908,11 +67119,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.ide.vscode@1.1.0
+        m_PackageId: com.unity.ide.vscode@1.1.2
         m_IsDirectDependency: 0
-        m_Version: 1.1.0
+        m_Version: 1.1.2
         m_Source: 1
-        m_ResolvedPath: C:\Users\lukel\Documents\Tower\Library\PackageCache\com.unity.ide.vscode@1.1.0
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -66929,12 +67140,14 @@ MonoBehaviour:
           - 1.0.3
           - 1.0.7
           - 1.1.0
+          - 1.1.2
           m_Compatible:
           - 1.0.2
           - 1.0.3
           - 1.0.7
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.2
+          m_Recommended: 1.1.2
         m_Dependencies: []
         m_ResolvedDependencies: []
         m_Keywords: []
@@ -66948,7 +67161,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637009669160000000
+        m_DatePublishedTicks: 637032133170000000
       IsInstalled: 0
     - Name: com.unity.immediate-window
       DisplayName: Immediate Window
@@ -67479,9 +67692,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@0.9.5-preview
+        m_PackageId: com.unity.inputsystem@0.9.6-preview
         m_IsDirectDependency: 0
-        m_Version: 0.9.5-preview
+        m_Version: 0.9.6-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
@@ -67507,6 +67720,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -67520,6 +67734,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -67544,7 +67759,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637027021190000000
+        m_DatePublishedTicks: 637033969230000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -67564,9 +67779,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@0.9.5-preview
+        m_PackageId: com.unity.inputsystem@0.9.6-preview
         m_IsDirectDependency: 0
-        m_Version: 0.9.5-preview
+        m_Version: 0.9.6-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
@@ -67592,6 +67807,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -67605,6 +67821,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -67629,7 +67846,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637027021190000000
+        m_DatePublishedTicks: 637033969230000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -67649,9 +67866,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@0.9.5-preview
+        m_PackageId: com.unity.inputsystem@0.9.6-preview
         m_IsDirectDependency: 0
-        m_Version: 0.9.5-preview
+        m_Version: 0.9.6-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
@@ -67677,6 +67894,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -67690,6 +67908,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -67714,7 +67933,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637027021190000000
+        m_DatePublishedTicks: 637033969230000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -67734,9 +67953,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@0.9.5-preview
+        m_PackageId: com.unity.inputsystem@0.9.6-preview
         m_IsDirectDependency: 0
-        m_Version: 0.9.5-preview
+        m_Version: 0.9.6-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
@@ -67762,6 +67981,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -67775,6 +67995,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -67799,7 +68020,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637027021190000000
+        m_DatePublishedTicks: 637033969230000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -67819,9 +68040,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@0.9.5-preview
+        m_PackageId: com.unity.inputsystem@0.9.6-preview
         m_IsDirectDependency: 0
-        m_Version: 0.9.5-preview
+        m_Version: 0.9.6-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
@@ -67847,6 +68068,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -67860,6 +68082,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -67884,7 +68107,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637027021190000000
+        m_DatePublishedTicks: 637033969230000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -67904,9 +68127,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@0.9.5-preview
+        m_PackageId: com.unity.inputsystem@0.9.6-preview
         m_IsDirectDependency: 0
-        m_Version: 0.9.5-preview
+        m_Version: 0.9.6-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
@@ -67932,6 +68155,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -67945,6 +68169,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -67969,7 +68194,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637027021190000000
+        m_DatePublishedTicks: 637033969230000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -67989,9 +68214,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@0.9.5-preview
+        m_PackageId: com.unity.inputsystem@0.9.6-preview
         m_IsDirectDependency: 0
-        m_Version: 0.9.5-preview
+        m_Version: 0.9.6-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
@@ -68017,6 +68242,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -68030,6 +68256,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -68054,7 +68281,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637027021190000000
+        m_DatePublishedTicks: 637033969230000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -68074,9 +68301,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@0.9.5-preview
+        m_PackageId: com.unity.inputsystem@0.9.6-preview
         m_IsDirectDependency: 0
-        m_Version: 0.9.5-preview
+        m_Version: 0.9.6-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
@@ -68102,6 +68329,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -68115,6 +68343,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -68139,7 +68368,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637027021190000000
+        m_DatePublishedTicks: 637033969230000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -68159,9 +68388,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@0.9.5-preview
+        m_PackageId: com.unity.inputsystem@0.9.6-preview
         m_IsDirectDependency: 0
-        m_Version: 0.9.5-preview
+        m_Version: 0.9.6-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
@@ -68187,6 +68416,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -68200,6 +68430,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -68224,7 +68455,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637027021190000000
+        m_DatePublishedTicks: 637033969230000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -68244,9 +68475,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@0.9.5-preview
+        m_PackageId: com.unity.inputsystem@0.9.6-preview
         m_IsDirectDependency: 0
-        m_Version: 0.9.5-preview
+        m_Version: 0.9.6-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
@@ -68272,6 +68503,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -68285,6 +68517,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -68309,7 +68542,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637027021190000000
+        m_DatePublishedTicks: 637033969230000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
@@ -68329,9 +68562,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.inputsystem@0.9.5-preview
+        m_PackageId: com.unity.inputsystem@0.9.6-preview
         m_IsDirectDependency: 0
-        m_Version: 0.9.5-preview
+        m_Version: 0.9.6-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
@@ -68357,6 +68590,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -68370,6 +68604,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -68394,11 +68629,98 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637027021190000000
+        m_DatePublishedTicks: 637033969230000000
       IsInstalled: 0
     - Name: com.unity.inputsystem
       DisplayName: Input System
       _Version: 0.9.5-preview
+      Description: A new input system which can be used as a more extensible and customizable
+        alternative to Unity's classic input system in UnityEngine.Input.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.inputsystem@0.9.6-preview
+        m_IsDirectDependency: 0
+        m_Version: 0.9.6-preview
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.inputsystem
+        m_Name: com.unity.inputsystem
+        m_DisplayName: Input System
+        m_Category: 
+        m_Type: 
+        m_Description: A new input system which can be used as a more extensible and
+          customizable alternative to Unity's classic input system in UnityEngine.Input.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.2-preview
+          - 0.2.0-preview
+          - 0.2.1-preview
+          - 0.2.6-preview
+          - 0.2.8-preview
+          - 0.2.10-preview
+          - 0.9.0-preview
+          - 0.9.1-preview
+          - 0.9.2-preview
+          - 0.9.3-preview
+          - 0.9.4-preview
+          - 0.9.5-preview
+          - 0.9.6-preview
+          m_Compatible:
+          - 0.1.2-preview
+          - 0.2.0-preview
+          - 0.2.1-preview
+          - 0.2.6-preview
+          - 0.2.8-preview
+          - 0.2.10-preview
+          - 0.9.0-preview
+          - 0.9.1-preview
+          - 0.9.2-preview
+          - 0.9.3-preview
+          - 0.9.4-preview
+          - 0.9.5-preview
+          - 0.9.6-preview
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - input
+        - events
+        - keyboard
+        - mouse
+        - gamepad
+        - touch
+        - vr
+        - xr
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637033969230000000
+      IsInstalled: 0
+    - Name: com.unity.inputsystem
+      DisplayName: Input System
+      _Version: 0.9.6-preview
       Description: A new input system which can be used as a more extensible and customizable
         alternative to Unity's classic input system in UnityEngine.Input.
       Category: 
@@ -68414,9 +68736,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.inputsystem@0.9.5-preview
+        m_PackageId: com.unity.inputsystem@0.9.6-preview
         m_IsDirectDependency: 0
-        m_Version: 0.9.5-preview
+        m_Version: 0.9.6-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.inputsystem
@@ -68442,6 +68764,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Compatible:
           - 0.1.2-preview
           - 0.2.0-preview
@@ -68455,6 +68778,7 @@ MonoBehaviour:
           - 0.9.3-preview
           - 0.9.4-preview
           - 0.9.5-preview
+          - 0.9.6-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -68479,7 +68803,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637027021190000000
+        m_DatePublishedTicks: 637033969230000000
       IsInstalled: 0
     - Name: com.unity.jobs
       DisplayName: Jobs
@@ -77671,9 +77995,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.physics@0.2.0-preview
+        m_PackageId: com.unity.physics@0.2.2-preview
         m_IsDirectDependency: 0
-        m_Version: 0.2.0-preview
+        m_Version: 0.2.2-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.physics
@@ -77691,15 +78015,17 @@ MonoBehaviour:
           - 0.0.2-preview.1
           - 0.1.0-preview
           - 0.2.0-preview
+          - 0.2.2-preview
           m_Compatible:
           - 0.0.1-preview.1
           - 0.0.2-preview.1
           - 0.1.0-preview
           - 0.2.0-preview
+          - 0.2.2-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.burst
-          m_Version: 1.1.1
+          m_Version: 1.1.2
         - m_Name: com.unity.entities
           m_Version: 0.0.12-preview.33
         - m_Name: com.unity.test-framework.performance
@@ -77718,7 +78044,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636991201750000000
+        m_DatePublishedTicks: 637033825710000000
       IsInstalled: 0
     - Name: com.unity.physics
       DisplayName: Unity Physics
@@ -77738,9 +78064,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.physics@0.2.0-preview
+        m_PackageId: com.unity.physics@0.2.2-preview
         m_IsDirectDependency: 0
-        m_Version: 0.2.0-preview
+        m_Version: 0.2.2-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.physics
@@ -77758,15 +78084,17 @@ MonoBehaviour:
           - 0.0.2-preview.1
           - 0.1.0-preview
           - 0.2.0-preview
+          - 0.2.2-preview
           m_Compatible:
           - 0.0.1-preview.1
           - 0.0.2-preview.1
           - 0.1.0-preview
           - 0.2.0-preview
+          - 0.2.2-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.burst
-          m_Version: 1.1.1
+          m_Version: 1.1.2
         - m_Name: com.unity.entities
           m_Version: 0.0.12-preview.33
         - m_Name: com.unity.test-framework.performance
@@ -77785,7 +78113,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636991201750000000
+        m_DatePublishedTicks: 637033825710000000
       IsInstalled: 0
     - Name: com.unity.physics
       DisplayName: Unity Physics
@@ -77805,9 +78133,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.physics@0.2.0-preview
+        m_PackageId: com.unity.physics@0.2.2-preview
         m_IsDirectDependency: 0
-        m_Version: 0.2.0-preview
+        m_Version: 0.2.2-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.physics
@@ -77825,15 +78153,17 @@ MonoBehaviour:
           - 0.0.2-preview.1
           - 0.1.0-preview
           - 0.2.0-preview
+          - 0.2.2-preview
           m_Compatible:
           - 0.0.1-preview.1
           - 0.0.2-preview.1
           - 0.1.0-preview
           - 0.2.0-preview
+          - 0.2.2-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.burst
-          m_Version: 1.1.1
+          m_Version: 1.1.2
         - m_Name: com.unity.entities
           m_Version: 0.0.12-preview.33
         - m_Name: com.unity.test-framework.performance
@@ -77852,11 +78182,80 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636991201750000000
+        m_DatePublishedTicks: 637033825710000000
       IsInstalled: 0
     - Name: com.unity.physics
       DisplayName: Unity Physics
       _Version: 0.2.0-preview
+      Description: Unity's C# stateless physics library. This package is still in
+        experimental phase.
+      Category: Unity
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.physics@0.2.2-preview
+        m_IsDirectDependency: 0
+        m_Version: 0.2.2-preview
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.physics
+        m_Name: com.unity.physics
+        m_DisplayName: Unity Physics
+        m_Category: Unity
+        m_Type: 
+        m_Description: Unity's C# stateless physics library. This package is still
+          in experimental phase.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.0.1-preview.1
+          - 0.0.2-preview.1
+          - 0.1.0-preview
+          - 0.2.0-preview
+          - 0.2.2-preview
+          m_Compatible:
+          - 0.0.1-preview.1
+          - 0.0.2-preview.1
+          - 0.1.0-preview
+          - 0.2.0-preview
+          - 0.2.2-preview
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.burst
+          m_Version: 1.1.2
+        - m_Name: com.unity.entities
+          m_Version: 0.0.12-preview.33
+        - m_Name: com.unity.test-framework.performance
+          m_Version: 1.0.9-preview
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - unity
+        - physics
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637033825710000000
+      IsInstalled: 0
+    - Name: com.unity.physics
+      DisplayName: Unity Physics
+      _Version: 0.2.2-preview
       Description: Unity's C# stateless physics library. This package is still in
         experimental phase.
       Category: Unity
@@ -77872,9 +78271,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.physics@0.2.0-preview
+        m_PackageId: com.unity.physics@0.2.2-preview
         m_IsDirectDependency: 0
-        m_Version: 0.2.0-preview
+        m_Version: 0.2.2-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.physics
@@ -77892,15 +78291,17 @@ MonoBehaviour:
           - 0.0.2-preview.1
           - 0.1.0-preview
           - 0.2.0-preview
+          - 0.2.2-preview
           m_Compatible:
           - 0.0.1-preview.1
           - 0.0.2-preview.1
           - 0.1.0-preview
           - 0.2.0-preview
+          - 0.2.2-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.burst
-          m_Version: 1.1.1
+          m_Version: 1.1.2
         - m_Name: com.unity.entities
           m_Version: 0.0.12-preview.33
         - m_Name: com.unity.test-framework.performance
@@ -77919,7 +78320,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636991201750000000
+        m_DatePublishedTicks: 637033825710000000
       IsInstalled: 0
     - Name: com.unity.playablegraph-visualizer
       DisplayName: PlayableGraph Visualizer
@@ -84878,9 +85279,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.4
+        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.5
         m_IsDirectDependency: 0
-        m_Version: 1.1.3-preview.4
+        m_Version: 1.1.3-preview.5
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -84904,6 +85305,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -84913,6 +85315,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -84930,7 +85333,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637023997940000000
+        m_DatePublishedTicks: 637031917900000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -84952,9 +85355,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.4
+        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.5
         m_IsDirectDependency: 0
-        m_Version: 1.1.3-preview.4
+        m_Version: 1.1.3-preview.5
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -84978,6 +85381,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -84987,6 +85391,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85004,7 +85409,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637023997940000000
+        m_DatePublishedTicks: 637031917900000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -85026,9 +85431,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.4
+        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.5
         m_IsDirectDependency: 0
-        m_Version: 1.1.3-preview.4
+        m_Version: 1.1.3-preview.5
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -85052,6 +85457,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -85061,6 +85467,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85078,7 +85485,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637023997940000000
+        m_DatePublishedTicks: 637031917900000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -85100,9 +85507,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.4
+        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.5
         m_IsDirectDependency: 0
-        m_Version: 1.1.3-preview.4
+        m_Version: 1.1.3-preview.5
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -85126,6 +85533,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -85135,6 +85543,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85152,7 +85561,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637023997940000000
+        m_DatePublishedTicks: 637031917900000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -85174,9 +85583,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.4
+        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.5
         m_IsDirectDependency: 0
-        m_Version: 1.1.3-preview.4
+        m_Version: 1.1.3-preview.5
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -85200,6 +85609,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -85209,6 +85619,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85226,7 +85637,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637023997940000000
+        m_DatePublishedTicks: 637031917900000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -85248,9 +85659,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.4
+        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.5
         m_IsDirectDependency: 0
-        m_Version: 1.1.3-preview.4
+        m_Version: 1.1.3-preview.5
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -85274,6 +85685,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -85283,6 +85695,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85300,7 +85713,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637023997940000000
+        m_DatePublishedTicks: 637031917900000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
@@ -85322,9 +85735,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.4
+        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.5
         m_IsDirectDependency: 0
-        m_Version: 1.1.3-preview.4
+        m_Version: 1.1.3-preview.5
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -85348,6 +85761,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -85357,6 +85771,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85374,11 +85789,87 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637023997940000000
+        m_DatePublishedTicks: 637031917900000000
       IsInstalled: 0
     - Name: com.unity.purchasing.udp
       DisplayName: Unity Distribution Portal
       _Version: 1.1.3-preview.4
+      Description: Unity Distribution Portal (UDP) streamlines your distribution process.
+        UDP allows you to only build one version of your game, centralize the management
+        of your marketing assets and metadata, and submit your content to multiple
+        app stores, all in the same workflow.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.5
+        m_IsDirectDependency: 0
+        m_Version: 1.1.3-preview.5
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.purchasing.udp
+        m_Name: com.unity.purchasing.udp
+        m_DisplayName: Unity Distribution Portal
+        m_Category: 
+        m_Type: 
+        m_Description: Unity Distribution Portal (UDP) streamlines your distribution
+          process. UDP allows you to only build one version of your game, centralize
+          the management of your marketing assets and metadata, and submit your content
+          to multiple app stores, all in the same workflow.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.2.6-preview.3
+          - 1.0.0-preview.1
+          - 1.0.3-preview.2
+          - 1.0.3-preview.3
+          - 1.1.0-preview.1
+          - 1.1.3-preview.1
+          - 1.1.3-preview.2
+          - 1.1.3-preview.4
+          - 1.1.3-preview.5
+          m_Compatible:
+          - 0.2.6-preview.3
+          - 1.0.0-preview.1
+          - 1.0.3-preview.2
+          - 1.0.3-preview.3
+          - 1.1.0-preview.1
+          - 1.1.3-preview.1
+          - 1.1.3-preview.2
+          - 1.1.3-preview.4
+          - 1.1.3-preview.5
+          m_Recommended: 
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - android
+        - purchasing
+        - iap
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637031917900000000
+      IsInstalled: 0
+    - Name: com.unity.purchasing.udp
+      DisplayName: Unity Distribution Portal
+      _Version: 1.1.3-preview.5
       Description: Unity Distribution Portal (UDP) streamlines your distribution process.
         UDP allows you to only build one version of your game, centralize the management
         of your marketing assets and metadata, and submit your content to multiple
@@ -85396,9 +85887,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.4
+        m_PackageId: com.unity.purchasing.udp@1.1.3-preview.5
         m_IsDirectDependency: 0
-        m_Version: 1.1.3-preview.4
+        m_Version: 1.1.3-preview.5
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.purchasing.udp
@@ -85422,6 +85913,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Compatible:
           - 0.2.6-preview.3
           - 1.0.0-preview.1
@@ -85431,6 +85923,7 @@ MonoBehaviour:
           - 1.1.3-preview.1
           - 1.1.3-preview.2
           - 1.1.3-preview.4
+          - 1.1.3-preview.5
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85448,7 +85941,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637023997940000000
+        m_DatePublishedTicks: 637031917900000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -85473,9 +85966,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -85515,6 +86008,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -85537,6 +86031,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85563,7 +86058,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -85588,9 +86083,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -85630,6 +86125,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -85652,6 +86148,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85678,7 +86175,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -85703,9 +86200,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -85745,6 +86242,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -85767,6 +86265,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85793,7 +86292,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -85818,9 +86317,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -85860,6 +86359,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -85882,6 +86382,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -85908,7 +86409,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -85933,9 +86434,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -85975,6 +86476,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -85997,6 +86499,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -86023,7 +86526,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -86048,9 +86551,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -86090,6 +86593,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -86112,6 +86616,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -86138,7 +86643,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -86163,9 +86668,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -86205,6 +86710,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -86227,6 +86733,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -86253,7 +86760,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -86278,9 +86785,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -86320,6 +86827,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -86342,6 +86850,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -86368,7 +86877,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -86393,9 +86902,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -86435,6 +86944,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -86457,6 +86967,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -86483,7 +86994,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -86508,9 +87019,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -86550,6 +87061,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -86572,6 +87084,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -86598,7 +87111,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -86623,9 +87136,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -86665,6 +87178,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -86687,6 +87201,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -86713,7 +87228,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -86738,9 +87253,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -86780,6 +87295,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -86802,6 +87318,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -86828,7 +87345,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -86853,9 +87370,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -86895,6 +87412,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -86917,6 +87435,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -86943,7 +87462,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -86968,9 +87487,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -87010,6 +87529,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -87032,6 +87552,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -87058,7 +87579,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -87083,9 +87604,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -87125,6 +87646,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -87147,6 +87669,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -87173,7 +87696,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -87198,9 +87721,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -87240,6 +87763,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -87262,6 +87786,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -87288,7 +87813,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -87313,9 +87838,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -87355,6 +87880,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -87377,6 +87903,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -87403,7 +87930,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -87428,9 +87955,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -87470,6 +87997,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -87492,6 +88020,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -87518,7 +88047,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -87543,9 +88072,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -87585,6 +88114,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -87607,6 +88137,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -87633,7 +88164,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
@@ -87658,9 +88189,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -87700,6 +88231,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -87722,6 +88254,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -87748,11 +88281,128 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.quicksearch
       DisplayName: Quick Search
       _Version: 1.3.2-preview
+      Description: 'Search multiple areas of Unity: assets, scene objects, menu items,
+        packages, APIs, settings, etc.
+
+
+        On Windows simply press Alt+'' to find anything or Option+'' on Mac.
+
+        Look in the shortcut manager for additional Quick Search shortcut bindings.'
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies ApS
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.quicksearch@1.4.1
+        m_IsDirectDependency: 0
+        m_Version: 1.4.1
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.quicksearch
+        m_Name: com.unity.quicksearch
+        m_DisplayName: Quick Search
+        m_Category: 
+        m_Type: 
+        m_Description: 'Search multiple areas of Unity: assets, scene objects, menu
+          items, packages, APIs, settings, etc.
+
+
+          On Windows simply press Alt+'' to find anything or Option+'' on Mac.
+
+          Look in the shortcut manager for additional Quick Search shortcut bindings.'
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.9.5-preview.1
+          - 0.9.6-preview.1
+          - 0.9.7-preview.3
+          - 0.9.9-preview.2
+          - 0.9.95-preview
+          - 1.0.0-preview.2
+          - 1.0.1-preview.1
+          - 1.0.9-preview.2
+          - 1.1.0-preview.1
+          - 1.2.0-preview.1
+          - 1.2.1-preview
+          - 1.2.2-preview
+          - 1.2.3-preview
+          - 1.2.4-preview
+          - 1.2.6-preview
+          - 1.2.7-preview
+          - 1.2.8-preview
+          - 1.2.9-preview
+          - 1.3.0-preview
+          - 1.3.1-preview
+          - 1.3.2-preview
+          - 1.4.1
+          m_Compatible:
+          - 0.9.5-preview.1
+          - 0.9.6-preview.1
+          - 0.9.7-preview.3
+          - 0.9.9-preview.2
+          - 0.9.95-preview
+          - 1.0.0-preview.2
+          - 1.0.1-preview.1
+          - 1.0.9-preview.2
+          - 1.1.0-preview.1
+          - 1.2.0-preview.1
+          - 1.2.1-preview
+          - 1.2.2-preview
+          - 1.2.3-preview
+          - 1.2.4-preview
+          - 1.2.6-preview
+          - 1.2.7-preview
+          - 1.2.8-preview
+          - 1.2.9-preview
+          - 1.3.0-preview
+          - 1.3.1-preview
+          - 1.3.2-preview
+          - 1.4.1
+          m_Recommended: 
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - unity
+        - editor
+        - omni
+        - tool
+        - quick
+        - search
+        - assets
+        - menu
+        - scene
+        - api
+        - packages
+        - anything
+        m_Author:
+          m_Name: Unity Technologies ApS
+          m_Email: 
+          m_Url: https://blogs.unity3d.com/2019/04/16/introducing-unity-2019-1/#quicksearch
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637032926070000000
+      IsInstalled: 0
+    - Name: com.unity.quicksearch
+      DisplayName: Quick Search
+      _Version: 1.4.1
       Description: 'Search multiple areas of Unity: assets, scene objects, menu items,
         packages, APIs, settings, etc.
 
@@ -87773,9 +88423,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.quicksearch@1.3.2-preview
+        m_PackageId: com.unity.quicksearch@1.4.1
         m_IsDirectDependency: 0
-        m_Version: 1.3.2-preview
+        m_Version: 1.4.1
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.quicksearch
@@ -87815,6 +88465,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Compatible:
           - 0.9.5-preview.1
           - 0.9.6-preview.1
@@ -87837,6 +88488,7 @@ MonoBehaviour:
           - 1.3.0-preview
           - 1.3.1-preview
           - 1.3.2-preview
+          - 1.4.1
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -87863,7 +88515,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636996025870000000
+        m_DatePublishedTicks: 637032926070000000
       IsInstalled: 0
     - Name: com.unity.recorder
       DisplayName: Unity Recorder
@@ -99501,6 +100153,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.16
           - 1.0.0-preview.17
@@ -99518,6 +100171,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -99616,6 +100270,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.16
           - 1.0.0-preview.17
@@ -99633,6 +100288,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -99731,6 +100387,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.16
           - 1.0.0-preview.17
@@ -99748,6 +100405,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -99846,6 +100504,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.16
           - 1.0.0-preview.17
@@ -99863,6 +100522,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -99961,6 +100621,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.16
           - 1.0.0-preview.17
@@ -99978,6 +100639,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -100076,6 +100738,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.16
           - 1.0.0-preview.17
@@ -100093,6 +100756,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -100191,6 +100855,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.16
           - 1.0.0-preview.17
@@ -100208,6 +100873,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -100306,6 +100972,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.16
           - 1.0.0-preview.17
@@ -100323,6 +100990,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -100536,6 +101204,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.16
           - 1.0.0-preview.17
@@ -100553,6 +101222,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -100651,6 +101321,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.16
           - 1.0.0-preview.17
@@ -100668,6 +101339,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -100766,6 +101438,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.16
           - 1.0.0-preview.17
@@ -100783,6 +101456,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -100881,6 +101555,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.16
           - 1.0.0-preview.17
@@ -100898,6 +101573,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -100996,6 +101672,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.16
           - 1.0.0-preview.17
@@ -101013,6 +101690,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -101111,6 +101789,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.16
           - 1.0.0-preview.17
@@ -101128,6 +101807,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -101155,6 +101835,123 @@ MonoBehaviour:
     - Name: com.unity.xr.arcore
       DisplayName: ARCore XR Plugin
       _Version: 3.0.0-preview.1
+      Description: 'Provides native Google ARCore integration for use with Unity''s
+        multi-platform XR API.
+
+        =Supported Features=
+
+        -Efficient Background Rendering
+
+        -Horizontal Planes
+
+        -Depth Data
+
+        -Reference Points
+
+        -Hit Testing'
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.xr.arcore@2.1.1
+        m_IsDirectDependency: 0
+        m_Version: 2.1.1
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.xr.arcore
+        m_Name: com.unity.xr.arcore
+        m_DisplayName: ARCore XR Plugin
+        m_Category: 
+        m_Type: 
+        m_Description: 'Provides native Google ARCore integration for use with Unity''s
+          multi-platform XR API.
+
+          =Supported Features=
+
+          -Efficient Background Rendering
+
+          -Horizontal Planes
+
+          -Depth Data
+
+          -Reference Points
+
+          -Hit Testing'
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.0-preview.16
+          - 1.0.0-preview.17
+          - 1.0.0-preview.18
+          - 1.0.0-preview.19
+          - 1.0.0-preview.20
+          - 1.0.0-preview.21
+          - 1.0.0-preview.23
+          - 1.0.0-preview.24
+          - 2.0.2
+          - 2.1.0-preview.4
+          - 2.1.0-preview.5
+          - 2.1.0
+          - 2.1.1
+          - 2.2.0-preview.1
+          - 2.2.0-preview.2
+          - 3.0.0-preview.1
+          - 3.0.0-preview.2
+          m_Compatible:
+          - 1.0.0-preview.16
+          - 1.0.0-preview.17
+          - 1.0.0-preview.18
+          - 1.0.0-preview.19
+          - 1.0.0-preview.20
+          - 1.0.0-preview.21
+          - 1.0.0-preview.23
+          - 1.0.0-preview.24
+          - 2.0.2
+          - 2.1.0-preview.4
+          - 2.1.0-preview.5
+          - 2.1.0
+          - 2.1.1
+          - 2.2.0-preview.1
+          - 2.2.0-preview.2
+          - 3.0.0-preview.1
+          - 3.0.0-preview.2
+          m_Recommended: 2.0.2
+        m_Dependencies:
+        - m_Name: com.unity.xr.arsubsystems
+          m_Version: 2.1.0
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - arcore
+        - ar
+        - augmented
+        - xr
+        - reality
+        - core
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636997646830000000
+      IsInstalled: 0
+    - Name: com.unity.xr.arcore
+      DisplayName: ARCore XR Plugin
+      _Version: 3.0.0-preview.2
       Description: 'Provides native Google ARCore integration for use with Unity''s
         multi-platform XR API.
 
@@ -101226,6 +102023,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.16
           - 1.0.0-preview.17
@@ -101243,6 +102041,7 @@ MonoBehaviour:
           - 2.2.0-preview.1
           - 2.2.0-preview.2
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -101326,6 +102125,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -101347,6 +102147,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -101434,6 +102235,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -101455,6 +102257,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -101542,6 +102345,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -101563,6 +102367,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -101650,6 +102455,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -101671,6 +102477,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -101758,6 +102565,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -101779,6 +102587,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -101866,6 +102675,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -101887,6 +102697,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -101974,6 +102785,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -101995,6 +102807,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -102082,6 +102895,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -102103,6 +102917,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -102190,6 +103005,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -102211,6 +103027,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -102298,6 +103115,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -102319,6 +103137,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -102406,6 +103225,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -102427,6 +103247,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -102514,6 +103335,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -102535,6 +103357,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -102730,6 +103553,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -102751,6 +103575,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -102838,6 +103663,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -102859,6 +103685,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -102946,6 +103773,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -102967,6 +103795,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -103054,6 +103883,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -103075,6 +103905,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -103162,6 +103993,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -103183,6 +104015,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -103270,6 +104103,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -103291,6 +104125,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -103322,6 +104157,116 @@ MonoBehaviour:
     - Name: com.unity.xr.arfoundation
       DisplayName: AR Foundation
       _Version: 3.0.0-preview.1
+      Description: "A collection of MonoBehaviours and C# utilities for working with
+        AR Subsystems. \n\nIncludes: \n GameObject menu items for creating an AR setup
+        \n MonoBehaviours that control AR session lifecycle and create GameObjects
+        from detected, real-world trackable features \n Scale handling \n Face tracking"
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.xr.arfoundation@2.1.3
+        m_IsDirectDependency: 0
+        m_Version: 2.1.3
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.xr.arfoundation
+        m_Name: com.unity.xr.arfoundation
+        m_DisplayName: AR Foundation
+        m_Category: 
+        m_Type: 
+        m_Description: "A collection of MonoBehaviours and C# utilities for working
+          with AR Subsystems. \n\nIncludes: \n GameObject menu items for creating
+          an AR setup \n MonoBehaviours that control AR session lifecycle and create
+          GameObjects from detected, real-world trackable features \n Scale handling
+          \n Face tracking"
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.0-preview.12
+          - 1.0.0-preview.13
+          - 1.0.0-preview.14
+          - 1.0.0-preview.17
+          - 1.0.0-preview.18
+          - 1.0.0-preview.19
+          - 1.0.0-preview.20
+          - 1.0.0-preview.22
+          - 1.1.0-preview.6
+          - 1.5.0-preview.2
+          - 1.5.0-preview.5
+          - 1.5.0-preview.6
+          - 2.0.2
+          - 2.1.0-preview.2
+          - 2.1.0-preview.3
+          - 2.1.1
+          - 2.1.3
+          - 2.2.0-preview.2
+          - 2.2.0-preview.3
+          - 3.0.0-preview.1
+          - 3.0.0-preview.2
+          m_Compatible:
+          - 1.0.0-preview.12
+          - 1.0.0-preview.13
+          - 1.0.0-preview.14
+          - 1.0.0-preview.17
+          - 1.0.0-preview.18
+          - 1.0.0-preview.19
+          - 1.0.0-preview.20
+          - 1.0.0-preview.22
+          - 1.1.0-preview.6
+          - 1.5.0-preview.2
+          - 1.5.0-preview.5
+          - 1.5.0-preview.6
+          - 2.0.2
+          - 2.1.0-preview.2
+          - 2.1.0-preview.3
+          - 2.1.1
+          - 2.1.3
+          - 2.2.0-preview.2
+          - 2.2.0-preview.3
+          - 3.0.0-preview.1
+          - 3.0.0-preview.2
+          m_Recommended: 2.0.2
+        m_Dependencies:
+        - m_Name: com.unity.xr.legacyinputhelpers
+          m_Version: 1.3.7
+        - m_Name: com.unity.xr.arsubsystems
+          m_Version: 2.1.0
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - xr
+        - ar
+        - augmented
+        - reality
+        - utility
+        - utilities
+        - foundation
+        - core
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637007978650000000
+      IsInstalled: 0
+    - Name: com.unity.xr.arfoundation
+      DisplayName: AR Foundation
+      _Version: 3.0.0-preview.2
       Description: "A collection of MonoBehaviours and C# utilities for working with
         AR Subsystems. \n\nIncludes: \n GameObject menu items for creating an AR setup
         \n MonoBehaviours that control AR session lifecycle and create GameObjects
@@ -103378,6 +104323,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.12
           - 1.0.0-preview.13
@@ -103399,6 +104345,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.xr.legacyinputhelpers
@@ -103513,6 +104460,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -103534,6 +104482,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -103643,6 +104592,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -103664,6 +104614,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -103773,6 +104724,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -103794,6 +104746,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -103903,6 +104856,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -103924,6 +104878,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -104033,6 +104988,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -104054,6 +105010,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -104163,6 +105120,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -104184,6 +105142,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -104293,6 +105252,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -104314,6 +105274,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -104423,6 +105384,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -104444,6 +105406,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -104553,6 +105516,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -104574,6 +105538,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -104683,6 +105648,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -104704,6 +105670,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -104943,6 +105910,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -104964,6 +105932,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -105073,6 +106042,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -105094,6 +106064,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -105203,6 +106174,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -105224,6 +106196,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -105333,6 +106306,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -105354,6 +106328,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -105463,6 +106438,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -105484,6 +106460,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -105593,6 +106570,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -105614,6 +106592,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -105723,6 +106702,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -105744,6 +106724,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -105853,6 +106834,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -105874,6 +106856,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -105900,6 +106883,138 @@ MonoBehaviour:
     - Name: com.unity.xr.arkit
       DisplayName: ARKit XR Plugin
       _Version: 3.0.0-preview.1
+      Description: 'Provides native Apple ARKit integration for use with Unity''s
+        multi-platform XR API.
+
+        =Supported Features=
+
+        -Efficient Background Rendering
+
+        -Horizontal Planes
+
+        -Depth Data
+
+        -Reference Points
+
+        -Hit Testing
+
+        -Face Tracking
+
+        -Environment Probes'
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.xr.arkit@2.1.1
+        m_IsDirectDependency: 0
+        m_Version: 2.1.1
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.xr.arkit
+        m_Name: com.unity.xr.arkit
+        m_DisplayName: ARKit XR Plugin
+        m_Category: 
+        m_Type: 
+        m_Description: 'Provides native Apple ARKit integration for use with Unity''s
+          multi-platform XR API.
+
+          =Supported Features=
+
+          -Efficient Background Rendering
+
+          -Horizontal Planes
+
+          -Depth Data
+
+          -Reference Points
+
+          -Hit Testing
+
+          -Face Tracking
+
+          -Environment Probes'
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.0-preview.11
+          - 1.0.0-preview.12
+          - 1.0.0-preview.13
+          - 1.0.0-preview.14
+          - 1.0.0-preview.15
+          - 1.0.0-preview.16
+          - 1.0.0-preview.17
+          - 1.0.0-preview.20
+          - 1.0.0-preview.23
+          - 1.0.0-preview.27
+          - 2.0.1
+          - 2.1.0-preview.3
+          - 2.1.0-preview.5
+          - 2.1.1
+          - 2.2.0-preview.1
+          - 2.2.0-preview.2
+          - 2.2.0-preview.3
+          - 2.2.0-preview.4
+          - 2.2.0-preview.5
+          - 3.0.0-preview.1
+          - 3.0.0-preview.2
+          m_Compatible:
+          - 1.0.0-preview.11
+          - 1.0.0-preview.12
+          - 1.0.0-preview.13
+          - 1.0.0-preview.14
+          - 1.0.0-preview.15
+          - 1.0.0-preview.16
+          - 1.0.0-preview.17
+          - 1.0.0-preview.20
+          - 1.0.0-preview.23
+          - 1.0.0-preview.27
+          - 2.0.1
+          - 2.1.0-preview.3
+          - 2.1.0-preview.5
+          - 2.1.1
+          - 2.2.0-preview.1
+          - 2.2.0-preview.2
+          - 2.2.0-preview.3
+          - 2.2.0-preview.4
+          - 2.2.0-preview.5
+          - 3.0.0-preview.1
+          - 3.0.0-preview.2
+          m_Recommended: 2.0.1
+        m_Dependencies:
+        - m_Name: com.unity.xr.arsubsystems
+          m_Version: 2.1.0
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - arkit
+        - ar
+        - augmented
+        - xr
+        - reality
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636990950570000000
+      IsInstalled: 0
+    - Name: com.unity.xr.arkit
+      DisplayName: ARKit XR Plugin
+      _Version: 3.0.0-preview.2
       Description: 'Provides native Apple ARKit integration for use with Unity''s
         multi-platform XR API.
 
@@ -105983,6 +107098,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.11
           - 1.0.0-preview.12
@@ -106004,6 +107120,7 @@ MonoBehaviour:
           - 2.2.0-preview.4
           - 2.2.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.xr.arsubsystems
@@ -106072,6 +107189,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.6
@@ -106082,6 +107200,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.xr.arkit
@@ -106147,6 +107266,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.6
@@ -106157,6 +107277,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.xr.arkit
@@ -106222,6 +107343,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.6
@@ -106232,6 +107354,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.xr.arkit
@@ -106297,6 +107420,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.6
@@ -106307,6 +107431,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.xr.arkit
@@ -106372,6 +107497,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.6
@@ -106382,6 +107508,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.xr.arkit
@@ -106447,6 +107574,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.6
@@ -106457,6 +107585,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.xr.arkit
@@ -106522,6 +107651,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.6
@@ -106532,6 +107662,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.xr.arkit
@@ -106597,6 +107728,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.6
@@ -106607,6 +107739,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.xr.arkit
@@ -106630,6 +107763,83 @@ MonoBehaviour:
     - Name: com.unity.xr.arkit-face-tracking
       DisplayName: ARKit Face Tracking
       _Version: 3.0.0-preview.1
+      Description: "Support for face tracking on ARKit.\n\nIncludes support for: \n
+        Face pose tracking \n Blendshapes \n\nNote: Only supported on devices with
+        a forward-facing depth camera, like the iPhone X"
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.xr.arkit-face-tracking@1.0.1
+        m_IsDirectDependency: 0
+        m_Version: 1.0.1
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.xr.arkit-face-tracking
+        m_Name: com.unity.xr.arkit-face-tracking
+        m_DisplayName: ARKit Face Tracking
+        m_Category: 
+        m_Type: 
+        m_Description: "Support for face tracking on ARKit.\n\nIncludes support for:
+          \n Face pose tracking \n Blendshapes \n\nNote: Only supported on devices
+          with a forward-facing depth camera, like the iPhone X"
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.0-preview.4
+          - 1.0.0-preview.6
+          - 1.0.1
+          - 1.1.0-preview.1
+          - 1.1.0-preview.2
+          - 1.1.0-preview.3
+          - 1.1.0-preview.4
+          - 1.1.0-preview.5
+          - 3.0.0-preview.1
+          - 3.0.0-preview.2
+          m_Compatible:
+          - 1.0.0-preview.4
+          - 1.0.0-preview.6
+          - 1.0.1
+          - 1.1.0-preview.1
+          - 1.1.0-preview.2
+          - 1.1.0-preview.3
+          - 1.1.0-preview.4
+          - 1.1.0-preview.5
+          - 3.0.0-preview.1
+          - 3.0.0-preview.2
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.xr.arkit
+          m_Version: 2.1.1
+        - m_Name: com.unity.xr.arsubsystems
+          m_Version: 2.1.0
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636990986410000000
+      IsInstalled: 0
+    - Name: com.unity.xr.arkit-face-tracking
+      DisplayName: ARKit Face Tracking
+      _Version: 3.0.0-preview.2
       Description: "Support for face tracking on ARKit.\n\nIncludes support for: \n
         Face pose tracking \n Blendshapes \n\nNote: Only supported on devices with
         a forward-facing depth camera, like the iPhone X"
@@ -106672,6 +107882,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 1.0.0-preview.4
           - 1.0.0-preview.6
@@ -106682,6 +107893,7 @@ MonoBehaviour:
           - 1.1.0-preview.4
           - 1.1.0-preview.5
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.xr.arkit
@@ -106813,6 +108025,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 2.0.2
           - 2.1.0-preview.1
@@ -106821,6 +108034,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.subsystemregistration
@@ -106883,6 +108097,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 2.0.2
           - 2.1.0-preview.1
@@ -106891,6 +108106,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.subsystemregistration
@@ -106953,6 +108169,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 2.0.2
           - 2.1.0-preview.1
@@ -106961,6 +108178,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.subsystemregistration
@@ -107023,6 +108241,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 2.0.2
           - 2.1.0-preview.1
@@ -107031,6 +108250,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.subsystemregistration
@@ -107093,6 +108313,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 2.0.2
           - 2.1.0-preview.1
@@ -107101,6 +108322,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.subsystemregistration
@@ -107125,6 +108347,78 @@ MonoBehaviour:
     - Name: com.unity.xr.arsubsystems
       DisplayName: AR Subsystems
       _Version: 3.0.0-preview.1
+      Description: Contains definitions for AR Subsystems. This package is a dependency
+        of provider packages as well as AR Foundation
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.xr.arsubsystems@2.1.0
+        m_IsDirectDependency: 0
+        m_Version: 2.1.0
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.xr.arsubsystems
+        m_Name: com.unity.xr.arsubsystems
+        m_DisplayName: AR Subsystems
+        m_Category: 
+        m_Type: 
+        m_Description: Contains definitions for AR Subsystems. This package is a dependency
+          of provider packages as well as AR Foundation
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 2.0.2
+          - 2.1.0-preview.1
+          - 2.1.0-preview.2
+          - 2.1.0
+          - 2.2.0-preview.2
+          - 2.2.0-preview.3
+          - 3.0.0-preview.1
+          - 3.0.0-preview.2
+          m_Compatible:
+          - 2.0.2
+          - 2.1.0-preview.1
+          - 2.1.0-preview.2
+          - 2.1.0
+          - 2.2.0-preview.2
+          - 2.2.0-preview.3
+          - 3.0.0-preview.1
+          - 3.0.0-preview.2
+          m_Recommended: 2.0.2
+        m_Dependencies:
+        - m_Name: com.unity.subsystemregistration
+          m_Version: 1.0.5
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - subsystem
+        - XR
+        - AR
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636990878330000000
+      IsInstalled: 0
+    - Name: com.unity.xr.arsubsystems
+      DisplayName: AR Subsystems
+      _Version: 3.0.0-preview.2
       Description: Contains definitions for AR Subsystems. This package is a dependency
         of provider packages as well as AR Foundation
       Category: 
@@ -107163,6 +108457,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Compatible:
           - 2.0.2
           - 2.1.0-preview.1
@@ -107171,6 +108466,7 @@ MonoBehaviour:
           - 2.2.0-preview.2
           - 2.2.0-preview.3
           - 3.0.0-preview.1
+          - 3.0.0-preview.2
           m_Recommended: 2.0.2
         m_Dependencies:
         - m_Name: com.unity.subsystemregistration
@@ -111415,8 +112711,8 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636930181110000000
       IsInstalled: 0
-    listPackagesVersion: 5
-    listPackagesOfflineVersion: 5
+    listPackagesVersion: 13
+    listPackagesOfflineVersion: 12
     searchOperationOngoing: 0
     listOperationOngoing: 0
     listOperationOfflineOngoing: 0
@@ -111771,6 +113067,22 @@ MonoBehaviour:
         Expanded: 0
         SeeAllVersions: 0
         Selected: 0
+      - PackageId: com.unity.inputsystem@0.9.6-preview
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.quicksearch@1.4.1
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.purchasing.udp@1.1.3-preview.5
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.physics@0.2.2-preview
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
     BuiltInSelection:
       States: []
 --- !u!114 &19
@@ -111796,7 +113108,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1920
     y: 598
-    width: 1052
+    width: 1151
     height: 395
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &20
@@ -111822,15 +113134,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1920
     y: 81
-    width: 600
+    width: 424
     height: 498
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: ca60fdff0661fdff3462fdff4a62fdff66b9ffff9ab9ffff02baffff58bcffff96beffff10f1ffff76f1ffff9af4ffffd8faffff72fbffff
+      m_SelectedIDs: 3afbffff
+      m_LastClickedID: -1222
+      m_ExpandedIDs: d8f0ffff00f3ffff62f4ffff40f6ffffb4f9ffff62faffffe2faffff3afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -111875,9 +113187,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2173
-    y: 81
-    width: 1145
+    x: 0
+    y: 0
+    width: 1106
     height: 498
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
@@ -111891,8 +113203,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -572.5
-    m_HBaseRangeMax: 572.5
+    m_HBaseRangeMin: -553
+    m_HBaseRangeMax: 553
     m_VBaseRangeMin: -240.5
     m_VBaseRangeMax: 240.5
     m_HAllowExceedBaseRangeMin: 1
@@ -111912,25 +113224,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 1145
+      width: 1106
       height: 481
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 572.5, y: 240.5}
+    m_Translation: {x: 553, y: 240.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -572.5
+      x: -553
       y: -240.5
-      width: 1145
+      width: 1106
       height: 481
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 1
-  m_LastWindowPixelSize: {x: 1145, y: 498}
+  m_LastWindowPixelSize: {x: 1106, y: 498}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -111956,9 +113268,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2520
+    x: 2344
     y: 81
-    width: 798
+    width: 1106
     height: 498
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -111971,9 +113283,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.2223911, y: 5.0115185, z: -2.391779}
+    m_Target: {x: 7.0390625, y: -13.15625, z: 2.4138184}
     speed: 2
-    m_Value: {x: -2.2223911, y: 5.0115185, z: -2.391779}
+    m_Value: {x: 7.0390625, y: -13.15625, z: 2.4138184}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -112002,17 +113314,17 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.5115924, y: 0.16409698, z: -0.100247346, w: 0.8374353}
+    m_Target: {x: 0.43989313, y: 0.54768354, z: -0.4185167, w: 0.57565856}
     speed: 2
-    m_Value: {x: 0.5115919, y: 0.16409682, z: -0.10024725, w: 0.83743453}
+    m_Value: {x: 0.43989265, y: 0.54768294, z: -0.41851625, w: 0.57565796}
   m_Size:
-    m_Target: 240.65831
+    m_Target: 103.45893
     speed: 2
-    m_Value: 251.99823
+    m_Value: 103.45893
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -112181,7 +113493,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1920
     y: 598
-    width: 1052
+    width: 1151
     height: 395
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -112197,20 +113509,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Knight
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Knight
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\lukel\Documents\Tower
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 04460000
-    m_LastClickedID: 17924
-    m_ExpandedIDs: 00000000763c0000f43e0000384100004041000004420000044600005c460000ba4600002c4a0000d64a0000484b00006e53000070530000725300007453000076530000785300007a5300007c53000000ca9a3b
+    m_SelectedIDs: 60370000
+    m_LastClickedID: 14176
+    m_ExpandedIDs: 000000009030000088310000a4310000863200008a320000a2320000d23200006e3400008c340000ae340000e235000070360000b6360000ec3600002e3d0000303d0000323d0000343d0000363d0000383d00003a3d00003c3d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -112238,7 +113550,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000763c0000f43e000038410000404100007a41000004420000044600005c460000ba4600002c4a0000d64a0000484b0000b84b0000524c00006e53000070530000725300007453000076530000785300007a5300007c530000
+    m_ExpandedIDs: 000000009030000088310000a4310000863200008a320000a2320000d23200006e3400008c340000ae340000e235000070360000b6360000ec3600001c370000603700002e3d0000303d0000323d0000343d0000363d0000383d00003a3d00003c3d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -112265,7 +113577,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 18460000c8050000900b000094850000000000002e3f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -112317,11 +113629,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1920
     y: 598
-    width: 1052
+    width: 1151
     height: 395
   m_ViewDataDictionary: {fileID: 0}
   m_VertSplit:
-    ID: 7192
+    ID: 2779
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes: bd000000be000000
@@ -112649,9 +113961,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2972
+    x: 3071
     y: 598
-    width: 346
+    width: 379
     height: 395
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -112666,7 +113978,8 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/Knight
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -112678,7 +113991,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b6280000
     m_LastClickedID: 10422
-    m_ExpandedIDs: 00000000763c0000f43e000038410000404100007a41000004420000044600005c460000ba4600002c4a0000d64a0000484b0000b84b0000524c00006e53000070530000725300007453000076530000785300007a5300007c530000
+    m_ExpandedIDs: 000000009030000088310000a4310000863200008a320000a2320000d23200006e3400008c340000ae340000e235000070360000b6360000ec3600001c370000603700002e3d0000303d0000323d0000343d0000363d0000383d00003a3d00003c3d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -112703,10 +114016,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 1028}
+    scrollPos: {x: 0, y: 372}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000763c0000f43e00002e3f000038410000404100007a41000004420000044600005c460000ba460000e44800002c4a0000d64a0000484b0000b84b0000524c00006e53000070530000725300007453000076530000785300007a5300007c530000
+    m_ExpandedIDs: ffffffff000000009030000088310000a4310000863200008a320000a2320000d2320000903300006e3400008c340000ae340000e235000070360000b6360000ec3600001c370000603700002e3d0000303d0000323d0000343d0000363d0000383d00003a3d00003c3d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -112783,9 +114096,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3320
+    x: 3452
     y: 81
-    width: 502
+    width: 370
     height: 912
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
