@@ -10,6 +10,8 @@ public class blockPlacement : MonoBehaviour
     public int count = 0;
     public int total = 30;
 
+    public Grid grid;
+
 
 
     // Start is called before the first frame update
@@ -56,8 +58,10 @@ public class blockPlacement : MonoBehaviour
         {
             Vector3 pos = new Vector3(hitInfo.point.x, 1f, hitInfo.point.z);
 
-            current.transform.position = pos;
+            current.transform.position = grid.GetNearestPoint(pos);
+
         }
+
     }
 
     private void place()
