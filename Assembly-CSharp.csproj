@@ -118,6 +118,7 @@
     <Compile Include="Assets\scripts\Moon.cs" />
     <Compile Include="Assets\scripts\pauseMenu.cs" />
     <Compile Include="Assets\scripts\rotator.cs" />
+    <Compile Include="Assets\scripts\Settings.cs" />
     <Compile Include="Assets\scripts\Spawn.cs" />
     <Compile Include="Assets\scripts\sun.cs" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
@@ -185,8 +186,14 @@
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
       <HintPath>C:/Users/lukel/Documents/Tower/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>C:/Users/lukel/Documents/Tower/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/lukel/Documents/Tower/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>C:/Users/lukel/Documents/Tower/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/lukel/Documents/Tower/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -235,12 +242,6 @@
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
       <HintPath>C:/Users/lukel/Documents/Tower/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids">
-      <HintPath>C:/Users/lukel/Documents/Tower/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/Users/lukel/Documents/Tower/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
