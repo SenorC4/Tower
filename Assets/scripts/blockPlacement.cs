@@ -48,6 +48,20 @@ public class blockPlacement : MonoBehaviour
         }
     }
 
+    public void ButtonNewObject()
+    {
+        if (current != null)
+        {
+            Destroy(current);
+        }
+        else
+        {
+            current = Instantiate(block);
+        }
+    }
+
+
+
     private void MoveObject()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
